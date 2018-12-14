@@ -1,4 +1,4 @@
-let n = prompt('1.	Write a program that outputs the string representation of numbers from 1 to n.', 'Please provide n')
+let n = prompt('1. Write a program that outputs the string representation of numbers from 1 to n.', 'Please provide n')
 while (n == ""){
     alert('Please provide n')
     n = prompt('Please provide n')
@@ -14,7 +14,7 @@ for (let i = 1 ; i <= n; i++) {
     } else {console.log(i.toString())}
 }
 
-let reverseString = prompt('2.	How would you reverse a string?', 'Please provide a string')
+let reverseString = prompt('2. How would you reverse a string?', 'Please provide a string')
 while (reverseString == ""){
 alert('Please provide a string')
 reverseString = prompt('Please provide a string')
@@ -29,7 +29,7 @@ let reversedString = reverseString.split("").reverse().join("")
 
 alert(`Here is your reversed string - ${reversedString}`)
 
-alert('3.	Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).')
+alert('3. Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).')
 
 function getRandomNum(max) {
     return Math.ceil(Math.random()* Math.ceil(max) + 1)
@@ -59,10 +59,10 @@ const topThree = (arr) => {
 }
 alert(`Here is the sorted array - ${topThree(numArr)}`)
 alert('Question 4...I cannot do')
-alert('5.	Is there a difference between null and undefined values?')
+alert('5. Is there a difference between null and undefined values?')
 alert('Yes. null is the result of calling something that has been declared but had no value assigned to it. undefined occurs when referencing something that has not been declared yet')
-alert('6.	What is the difference between double equals and triple equals?')
+alert('6. What is the difference between double equals and triple equals?')
 alert('== will compare just the value where === will compare the value and the type')
 alert('eg 5 == "5" would be true but 5 === "5" would be false')
-alert('7.	What is your QA process or testing process within the team when writing clean JavaScript code in an extension or just in general (open interpretation)?')
+alert('7. What is your QA process or testing process within the team when writing clean JavaScript code in an extension or just in general (open interpretation)?')
 alert('Due to just starting out in my JavaScript career, I have not touched on testing just yet')
